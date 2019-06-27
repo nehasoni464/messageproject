@@ -1,0 +1,47 @@
+/* app css stylesheet *//*
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+} */
+ .sidenav{
+ 	height: 100%;
+ 	width: 100%;
+ }
+
+.msghead{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	background-color: #ccc;
+	width: 75%;
+}
+footer{
+	bottom: 5px;
+	width: 75.5%;
+	position: absolute;
+}
+.message-input {
+	width: 100%;
+	height: 50px;
+	padding: 15px;
+
+}
+.input_box{
+	 width: 100%;
+     background: transparent;
+     outline: none;
+     border: black;
+
+	}
+.msg{
+	flex-direction: column;
+	width: 80%;
+	background-color: black:;
+}
+input[type=text]{
+	width: 100%;
+}
+
