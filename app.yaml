@@ -6,6 +6,14 @@ handlers:
 - url: /.*
   script: nn.app
 
+- url: /
+  static_files: signin.html
+  upload: signin.html
+
+
+- url: /handlers.*
+  script: signin.app
+
 libraries:
   - name: webapp2
     version: latest
